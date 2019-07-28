@@ -1,35 +1,48 @@
 <template>
-
   <header class="header">
-  <h1>Harvard's Art Collection</h1>
-  <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-  </div>
-  <button>Paintings</button>
+    <h1>Harvard's Art Collection</h1>
+    <div id="nav">
+      <router-link to="/">Home </router-link>|
+      <router-link to="/Images">Images</router-link>
+    </div>
   </header>
 </template>
 
 <script>
 export default {
-  name: 'Header',
+  name: "Header",
   props: {
     msg: String
   }
-}
+};
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1 {
-  color: blue;
+  color: #a41034;
+  margin-left: 20px;
 }
 .header {
-  background-color: antiquewhite
+  background-color: antiquewhite;
+  display: flex;
+  height: 100px;
+  justify-content: flex-start;
+  align-items: center;
 }
-
 .header a {
   text-decoration: none;
   color: black;
+  font-size: 1.2rem;
+}
+
+.header a:hover {
+  text-decoration: none;
+  color: #a41034;
+  border-bottom: 2px solid #a41034;
+}
+
+#nav {
+  margin-top: 50px;
+  margin-left: 100px;
 }
 </style>

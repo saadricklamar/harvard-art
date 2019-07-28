@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <Header/>
-    <router-view/>
+    <Header />
+    <router-view />
   </div>
 </template>
 
 <script>
 import Header from "../src/components/Header";
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Header
   }
-}
+};
 </script>
 
 <style>
@@ -25,6 +25,10 @@ export default {
 body {
   font-family: Arial, Helvectica, sans-serif;
   line-height: 1.4;
+  background: url(assets/harvard-art-museum.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
 </style>
