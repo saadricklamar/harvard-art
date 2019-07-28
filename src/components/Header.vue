@@ -3,8 +3,10 @@
     <h1>Harvard's Art Collection</h1>
     <div id="nav">
       <router-link to="/">Home </router-link>|
-      <router-link to="/Images">Images</router-link>
+      <router-link to="/Images">Images </router-link>|
+      <router-link to="/Videos">Videos</router-link>
     </div>
+
   </header>
 </template>
 
@@ -12,9 +14,10 @@
 export default {
   name: "Header",
   props: {
-    msg: String
+    img: []
   }
 };
+
 </script>
 
 <style scoped>

@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <section>
+    <section class='welcome-card'>
       <p>
         Harvard's Art Collection is my final project at the
         <a
@@ -54,7 +54,7 @@ body {
   align-items: center;
 }
 
-section {
+.welcome-card {
   margin-top: 100px;
   width: 700px;
   height: 550px;
