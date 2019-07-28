@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <section class='welcome-card'>
+    <section class="welcome-card">
       <p>
         Harvard's Art Collection is my final project at the
         <a

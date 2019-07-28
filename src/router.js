@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue';
-import Videos from './views/Videos.vue';
+import Galleries from './views/Galleries.vue';
 
 Vue.use(Router)
 
@@ -21,9 +21,9 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Images.vue')
     },
     {
-      path: '/Videos',
-      name: 'Videos',
-      component: () => import(/* webpackChunkName: "about" */ './views/Videos.vue')
+      path: '/Galleries',
+      name: 'Galleries',
+      component: () => import(/* webpackChunkName: "about" */ './views/Galleries.vue')
     },
 
   ]

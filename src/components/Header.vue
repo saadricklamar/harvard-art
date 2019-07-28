@@ -2,11 +2,10 @@
   <header class="header">
     <h1>Harvard's Art Collection</h1>
     <div id="nav">
-      <router-link to="/">Home </router-link>|
-      <router-link to="/Images">Images </router-link>|
-      <router-link to="/Videos">Videos</router-link>
+      <router-link to="/"> Home </router-link>|
+      <router-link to="/Images"> Images </router-link>|
+      <router-link to="/Galleries"> Galleries </router-link>
     </div>
-
   </header>
 </template>
 
@@ -17,7 +16,6 @@ export default {
     img: []
   }
 };
-
 </script>
 
 <style scoped>
