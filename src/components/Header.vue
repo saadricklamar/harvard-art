@@ -42,6 +42,12 @@ h1 {
   border-bottom: 2px solid #a41034;
 }
 
+.header a:focus {
+  text-decoration: none;
+  color: #a41034;
+  border-bottom: 2px solid #a41034;
+}
+
 #nav {
   margin-top: 50px;
   margin-left: 100px;
