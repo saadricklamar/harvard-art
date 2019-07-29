@@ -50,8 +50,8 @@ article {
   border-top-color: #ddd;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25) inset,
     0 5px 10px 5px rgba(0, 0, 0, 0.25);
-  height: 30vh;
+  height: 49vh;
   padding: 10px;
-  margin: 10px;
+  margin: 20px;
 }
 </style>

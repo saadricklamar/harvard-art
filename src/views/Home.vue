@@ -13,7 +13,7 @@
           target="_blank"
         >Vue.js</a>.
         <br />
-        <br />I was prompted to create a single-page application in Vue.js that functions as an art gallery
+        <br />I was prompted to create an application in Vue.js that functions as an art gallery
         using the
         <a
           href="https://www.harvardartmuseums.org/collections/api"
@@ -23,7 +23,9 @@
           Museum API
         </a>.
         <br />
-        <br />
+        <br />Some of the major takeways were how to use
+        <a href="https://router.vuejs.org/" target="_blank">Vue Router</a>, Vue Directives (such as v-for and v-if), and unit testing with
+        <a href="https://github.com/vuejs/vue-test-utils" target="_blank">Vue Test Utils.</a>
       </p>
     </section>
   </div>
@@ -31,8 +33,7 @@
 
 <script>
 export default {
-  name: "Home",
-  components: {}
+  name: "Home"
 };
 </script>
 
@@ -55,11 +56,10 @@ body {
 }
 
 .welcome-card {
-  margin-top: 100px;
+  margin-top: 50px;
   width: 700px;
   height: 550px;
-  background: rgba(130, 130, 130, 0.5);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8), 0 6px 6px rgba(0, 0, 0, 0.5);
+  background: rgba(124, 119, 119, 0.8);
   border: 2px solid white;
   padding: 30px;
   color: white;
@@ -71,10 +71,10 @@ p {
 }
 
 a {
-  color: white;
+  color: black;
 }
 
 a:hover {
-  color: orangered;
+  color: #a41034;
 }
 </style>
