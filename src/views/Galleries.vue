@@ -18,7 +18,7 @@ export default {
   },
   mounted: function() {
     fetch(
-      "https://api.harvardartmuseums.org/Gallery?apikey=389a19f0-b0a0-11e9-aef7-cf3793100ea0&size=64"
+      `https://api.harvardartmuseums.org/Gallery?apikey=${process.env.VUE_APP_API_KEY}&size=64`
     )
       .then(response => response.json())
       .then(results => (this.galleries = results.records))
