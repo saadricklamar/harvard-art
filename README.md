@@ -1,29 +1,3 @@
-# harvard-art
+# Harvard's Art Collection
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This is my final project of Module 4 at the [Turing School of Software & Design](https://turing.io/). The goal of the project was to mimic a take home project where you are required to learn a new piece of technology over a few days. The new tech was [Vue.js](https://vuejs.org/), and using the [Harvard Art Museum API](https://github.com/harvardartmuseums/api-docs), I was instructed to build an art gallery. 
