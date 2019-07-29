@@ -9,6 +9,7 @@
 </template>
 
 <script>
+
 export default {
   name: "Images",
   data() {
@@ -18,7 +19,7 @@ export default {
   },
   mounted: function() {
     fetch(
-      "https://api.harvardartmuseums.org/Image?apikey=389a19f0-b0a0-11e9-aef7-cf3793100ea0&size=100"
+      `https://api.harvardartmuseums.org/Image?apikey=${process.env.VUE_APP_API_KEY}&size=100`
     )
       .then(response => response.json())
       .then(results => (this.images = results.records))
