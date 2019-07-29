@@ -29,19 +29,20 @@ export default {
 
 <style>
 .galleries {
-  margin: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
 }
 .gallery-card {
-  margin-top: 100px;
+  margin-top: 40px;
   background: rgba(130, 130, 130, 0.5);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8), 0 6px 6px rgba(0, 0, 0, 0.5);
   border: 2px solid white;
   padding: 20px;
   color: black;
   font-size: 1.5rem;
   font-weight: bold;
   background-color: white;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 h2,
