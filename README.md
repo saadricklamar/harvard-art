@@ -8,7 +8,7 @@ This is my final project of Module 4 at the [Turing School of Software & Design]
 * `cd cycle-city`
 * `npm install`
 * `npm start`
-* Then, go to `http://localhost:8080/` to see the code running in the browser
+* Then, go to `http://localhost:8080/` to see the application running in the browser
 
 ## Tech Stack
 
