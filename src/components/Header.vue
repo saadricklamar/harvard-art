@@ -33,7 +33,7 @@ h1 {
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 }
 
 .header a:hover {
