@@ -1,11 +1,12 @@
 <template>
   <header class="header">
-    <h1>Harvard's Art Collection</h1>
+    
     <div id="nav">
       <router-link to="/">Home</router-link>|
       <router-link to="/Galleries">Galleries</router-link>|
       <router-link to="/Images">Images</router-link>
     </div>
+    <h1>Harvard's Art Collection</h1>
   </header>
 </template>
 
@@ -18,7 +19,7 @@ export default {
 <style scoped>
 h1 {
   color: #a41034;
-  margin-left: 20px;
+  margin-right: 20px;
   letter-spacing: 5px;
 }
 .header {
@@ -49,6 +50,6 @@ h1 {
 
 #nav {
   margin-top: 50px;
-  margin-right: 100px;
+  margin-left: 100px;
 }
 </style>
