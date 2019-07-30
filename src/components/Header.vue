@@ -1,8 +1,8 @@
 <template>
   <header class="header">
-    
     <div id="nav">
       <router-link to="/">Home</router-link>|
+      <router-link to="/Sites">Sites</router-link>|
       <router-link to="/Galleries">Galleries</router-link>|
       <router-link to="/Images">Images</router-link>
     </div>

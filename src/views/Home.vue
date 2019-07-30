@@ -24,8 +24,14 @@
         </a>.
         <br />
         <br />Some of the major takeways were how to use
-        <a href="https://router.vuejs.org/" target="_blank">Vue Router</a>, Vue Directives (such as v-for and v-if), and unit testing with
-        <a href="https://github.com/vuejs/vue-test-utils" target="_blank">Vue Test Utils.</a>
+        <a
+          href="https://router.vuejs.org/"
+          target="_blank"
+        >Vue Router</a>, Vue Directives (such as v-for and v-if), and unit testing with
+        <a
+          href="https://github.com/vuejs/vue-test-utils"
+          target="_blank"
+        >Vue Test Utils.</a>
       </p>
     </section>
   </div>
