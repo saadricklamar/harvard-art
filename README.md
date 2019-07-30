@@ -12,7 +12,11 @@ This is my final project of Module 4 at the [Turing School of Software & Design]
 
 ## Tech Stack
 
-Vue.js, Vue Router, Vue Test Utils, Jest, Javascript.
+* Vue.js
+* Vue Router  
+* Vue Test Utils 
+* Jest
+* Javascript
 
 ## Screenshots 
 
