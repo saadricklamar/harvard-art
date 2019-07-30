@@ -19,37 +19,37 @@ export default {
 <style scoped>
 h1 {
   color: #a41034;
-  margin-right: 20px;
   letter-spacing: 5px;
+  margin-right: 20px;
 }
 .header {
+  align-items: center;
   background-color: antiquewhite;
   display: flex;
   height: 100px;
   justify-content: space-between;
-  align-items: center;
 }
 .header a {
-  text-decoration: none;
   color: black;
   font-size: 1.2rem;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
+  text-decoration: none;
 }
 
 .header a:hover {
-  text-decoration: none;
-  color: #a41034;
   border-bottom: 2px solid #a41034;
+  color: #a41034;
+  text-decoration: none;
 }
 
 .header a:focus {
-  text-decoration: none;
-  color: #a41034;
   border-bottom: 2px solid #a41034;
+  color: #a41034;
+  text-decoration: none;
 }
 
 #nav {
-  margin-top: 50px;
   margin-left: 100px;
+  margin-top: 50px;
 }
 </style>

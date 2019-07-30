@@ -9,7 +9,6 @@
 </template>
 
 <script>
-
 export default {
   name: "Images",
   data() {
@@ -37,18 +36,18 @@ export default {
 
 img {
   height: 300px;
-  width: 300px;
   padding: 30px;
+  width: 300px;
 }
 
 article {
   background-color: #ddc;
-  border: 30px solid #eee;
   border-bottom-color: #fff;
   border-left-color: #eee;
   border-radius: 2px;
   border-right-color: #eee;
   border-top-color: #ddd;
+  border: 30px solid #eee;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25) inset,
     0 5px 10px 5px rgba(0, 0, 0, 0.25);
   height: 49vh;
