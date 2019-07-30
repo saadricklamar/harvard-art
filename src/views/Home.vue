@@ -56,21 +56,22 @@ body {
 }
 
 #home {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .welcome-card {
-  margin-top: 50px;
-  width: 700px;
-  height: 550px;
   background: rgba(124, 119, 119, 0.8);
+  border-radius: 5px;
   border: 2px solid white;
-  padding: 30px;
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
+  height: 550px;
+  margin-top: 50px;
+  padding: 30px;
+  width: 700px;
 }
 p {
   line-height: 1.6;

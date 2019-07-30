@@ -36,19 +36,22 @@ export default {
 }
 
 article {
-  margin: 50px;
-  width: 700px;
-  height: 550px;
   background: rgba(124, 119, 119, 0.8);
+  border-radius: 5px;
   border: 2px solid white;
-  padding: 30px;
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
+  height: 550px;
+  margin: 50px;
+  padding: 30px;
+  width: 700px;
+  text-align: center;
 }
 
 img {
+  border: 2px solid white;
   height: 400px;
-  width: 500px;
+  width: 600px;
 }
 </style>

@@ -34,15 +34,13 @@ export default {
   padding-top: 30px;
 }
 .gallery-card {
-  margin-top: 40px;
-  background: rgba(130, 130, 130, 0.5);
-  border: 2px solid white;
-  padding: 20px;
+  background: white;
+  border-radius: 5px;
   color: black;
-  font-size: 1.5rem;
-  font-weight: bold;
-  background-color: white;
   font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 40px;
+  padding: 20px;
 }
 
 h2,

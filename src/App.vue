@@ -23,12 +23,12 @@ export default {
 }
 
 body {
-  font-family: Arial, Helvectica, sans-serif;
-  line-height: 1.4;
   background: url(assets/harvard-art-museum.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: Arial, Helvectica, sans-serif;
+  line-height: 1.4;
 }
 </style>
