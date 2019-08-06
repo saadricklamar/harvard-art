@@ -9,6 +9,5 @@ app.get(/.*/, function(req, res) {
 
 app.listen(port);
 
-console.log('server started')
 
 

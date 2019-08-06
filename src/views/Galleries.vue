@@ -1,7 +1,12 @@
 <template>
   <div class="galleries">
     <section v-if="gallery.labeltext !== null" class="gallery-card" v-for="gallery in galleries">
-      <h2>Gallery: {{gallery.name}}, floor {{gallery.floor}}</h2>
+      <h2>Gallery: {{gallery.name}}</h2>
+      <a
+        class="floor-link"
+        v-bind:href="url + gallery.floor"
+        target="_blank"
+      >Floor {{gallery.floor}}</a>
       <p class="theme" v-if="gallery.theme !==null">Theme: {{gallery.theme}}</p>
       <p class="description">{{gallery.labeltext}}</p>
     </section>
@@ -13,7 +18,8 @@ export default {
   name: "Galleries",
   data() {
     return {
-      galleries: []
+      galleries: [],
+      url: "https://www.harvardartmuseums.org/visit/floor-plan/"
     };
   },
   mounted: function() {
@@ -44,7 +50,12 @@ export default {
 }
 
 h2,
+.floor-link,
 .theme {
   color: #a41034;
+}
+
+.floor-link:hover {
+  color: black;
 }
 </style>
