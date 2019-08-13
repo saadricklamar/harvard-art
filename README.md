@@ -19,7 +19,8 @@ Heroku Link - https://harvard-art.herokuapp.com/#/
 * Vue.js
 * Vue Router  
 * Vue Test Utils 
-* Jest
+* Heroku
+* Jest/Enzyme
 * Javascript
 
 ## Screenshots 
