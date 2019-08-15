@@ -26,6 +26,11 @@ export default new Router({
       path: "/Sites",
       name: "Sites",
       component: () => import("./views/Sites.vue")
+    },
+    {
+      path: "/Audio",
+      name: "Audio",
+      component: () => import("./views/Audio.vue")
     }
   ]
 });
