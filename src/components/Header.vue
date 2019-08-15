@@ -4,7 +4,8 @@
       <router-link to="/">Home</router-link>|
       <router-link to="/Sites">Sites</router-link>|
       <router-link to="/Galleries">Galleries</router-link>|
-      <router-link to="/Images">Images</router-link>
+      <router-link to="/Images">Images</router-link>|
+      <router-link to="/Audio">Audio</router-link>
     </div>
     <h1>Harvard's Art Collection</h1>
   </header>
