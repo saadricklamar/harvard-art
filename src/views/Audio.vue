@@ -3,6 +3,9 @@
     <section v-for="audio in audioRecordings">
       <article>
         <p>{{audio.description}}</p>
+        <audio controls>
+            <source v-bind:src="audio.primaryurl" type="audio/mpeg">
+        </audio>
       </article>
     </section>
   </div>
