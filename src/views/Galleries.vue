@@ -1,6 +1,11 @@
 <template>
   <div class="galleries">
-    <section v-if="gallery.labeltext !== null" class="gallery-card" v-for="gallery in galleries">
+    <section
+      v-if="gallery.labeltext !== null"
+      class="gallery-card"
+      v-for="gallery in galleries"
+      v-bind:key="gallery.id"
+    >
       <h2>Gallery: {{gallery.name}}</h2>
       <a
         class="floor-link"

@@ -1,6 +1,6 @@
 <template>
   <div class="sites">
-    <section v-for="site in sites">
+    <section v-for="site in sites" v-bind:key="site.id">
       <article>
         <h3>{{site.name}}</h3>
         <p>{{site.address}}</p>
