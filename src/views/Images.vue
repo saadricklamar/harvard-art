@@ -1,6 +1,6 @@
 <template>
   <div class="Images">
-    <section v-for="image in images">
+    <section v-for="image in images" v-bind:key="image.id">
       <article>
         <img v-bind:src="image.baseimageurl" />
       </article>

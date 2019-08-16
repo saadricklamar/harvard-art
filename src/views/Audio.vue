@@ -1,6 +1,6 @@
 <template>
   <div class="audio-container">
-    <section class="audio-cards" v-for="audio in audioRecordings">
+    <section class="audio-cards" v-for="audio in audioRecordings" v-bind:key="audio.id">
       <p>{{audio.description}}</p>
       <audio controls>
         <source v-bind:src="audio.primaryurl" type="audio/mpeg" />
