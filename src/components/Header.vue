@@ -1,10 +1,10 @@
 <template>
   <header class="header">
     <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/Sites">Sites</router-link>|
-      <router-link to="/Galleries">Galleries</router-link>|
-      <router-link to="/Images">Images</router-link>|
+      <router-link to="/">Home|</router-link>
+      <router-link to="/Sites">Sites|</router-link>
+      <router-link to="/Galleries">Galleries|</router-link>
+      <router-link to="/Images">Images|</router-link>
       <router-link to="/Audio">Audio</router-link>
     </div>
     <h1>Harvard's Art Collection</h1>
@@ -52,5 +52,49 @@ h1 {
 #nav {
   margin-left: 100px;
   margin-top: 50px;
+}
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    align-items: flex-start;
+    height: 125px;
+  }
+
+  .header a {
+    margin-top: 40px;
+    align-items: center;
+  }
+
+  h1 {
+    margin-top: 20px;
+    position: relative;
+    right: 400px;
+    white-space: nowrap;
+  }
+
+  #nav {
+    font-size: .2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header a {
+    font-size: .5rem;
+  }
+  h1 {
+    font-size: .8rem;
+    position: relative;
+    right: 280px;
+    white-space: nowrap;
+  }
 }
 </style>
