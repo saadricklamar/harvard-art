@@ -9,7 +9,7 @@ Heroku Link - https://harvard-art.herokuapp.com/#/
 ## Installation and Setup Instructions
 
 * `git clone https://github.com/saadricklamar/harvard-art.git`
-* `cd cycle-city`
+* `cd harvard-art`
 * `npm install`
 * `npm start`
 * Then, go to `http://localhost:8080/` to see the application running in the browser
