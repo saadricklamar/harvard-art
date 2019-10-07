@@ -84,4 +84,20 @@ a {
 a:hover {
   color: #a41034;
 }
+
+@media (max-width: 750px) {
+  .welcome-card {
+    font-size: 1rem;
+    height: 440px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .welcome-card {
+    font-size: .8rem;
+    height: 400px;
+    width: 300px;
+  }
+}
 </style>
