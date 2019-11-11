@@ -50,7 +50,7 @@ article {
   border: 30px solid #eee;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25) inset,
     0 5px 10px 5px rgba(0, 0, 0, 0.25);
-  height: 49vh;
+  height: 52vh;
   padding: 10px;
   margin: 20px;
 }
