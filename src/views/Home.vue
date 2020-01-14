@@ -58,9 +58,9 @@ body {
   border-radius: 5px;
   border: 2px solid white;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
-  height: 550px;
+  height: 500px;
   margin-top: 50px;
   padding: 30px;
   width: 700px;

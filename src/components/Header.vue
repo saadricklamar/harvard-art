@@ -33,20 +33,19 @@ h1 {
 .header a {
   color: black;
   font-size: 1.2rem;
+  font-weight: bold;
   letter-spacing: 3px;
   text-decoration: none;
+  padding-right: 5px;
 }
 
 .header a:hover {
-  border-bottom: 2px solid #a41034;
   color: #a41034;
   text-decoration: none;
 }
 
 .header a:focus {
-  border-bottom: 2px solid #a41034;
   color: #a41034;
-  text-decoration: none;
 }
 
 #nav {
@@ -78,7 +77,7 @@ h1 {
   }
 
   #nav {
-    font-size: .2rem;
+    font-size: 0.2rem;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -88,10 +87,10 @@ h1 {
 
 @media (max-width: 600px) {
   .header a {
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
   h1 {
-    font-size: .8rem;
+    font-size: 0.8rem;
     position: relative;
     right: 280px;
     white-space: nowrap;
