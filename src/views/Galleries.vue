@@ -6,14 +6,14 @@
       v-for="gallery in galleries"
       v-bind:key="gallery.id"
     >
-      <h2>Gallery: {{gallery.name}}</h2>
-      <a
-        class="floor-link"
-        v-bind:href="url + gallery.floor"
-        target="_blank"
-      >Floor {{gallery.floor}}</a>
-      <p class="theme" v-if="gallery.theme !==null">Theme: {{gallery.theme}}</p>
-      <p class="description">{{gallery.labeltext}}</p>
+      <h2>Gallery: {{ gallery.name }}</h2>
+      <a class="floor-link" v-bind:href="url + gallery.floor" target="_blank"
+        >Floor {{ gallery.floor }}</a
+      >
+      <p class="theme" v-if="gallery.theme !== null">
+        Theme: {{ gallery.theme }}
+      </p>
+      <p class="description">{{ gallery.labeltext }}</p>
     </section>
   </div>
 </template>

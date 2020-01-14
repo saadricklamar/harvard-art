@@ -1,9 +1,9 @@
 <template>
   <div class="sites">
     <section v-for="site in sites" v-bind:key="site.id">
-      <article>
-        <h3>{{site.name}}</h3>
-        <p>{{site.address}}</p>
+      <article class="site-card">
+        <h3>{{ site.name }}</h3>
+        <p>{{ site.address }}</p>
         <img v-bind:src="require(`../assets/${site.name}.jpeg`)" />
       </article>
     </section>
@@ -53,5 +53,32 @@ img {
   border: 2px solid white;
   height: 400px;
   width: 600px;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  article {
+    font-size: 1rem;
+    height: 460px;
+    width: 430px;
+  }
+
+  img {
+    height: 350px;
+    width: 370px;
+  }
+}
+
+@media (max-width: 450px) {
+  article {
+    font-size: 0.8rem;
+    height: 420px;
+    width: 300px;
+  }
+
+  img {
+    height: 300px;
+    width: 240px;
+  }
 }
 </style>
