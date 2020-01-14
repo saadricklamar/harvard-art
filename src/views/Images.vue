@@ -1,5 +1,8 @@
 <template>
   <div class="Images">
+    <section v-if="!images.length" class="spinner">
+      <div class="loader"></div>
+    </section>
     <section v-for="image in images" v-bind:key="image.id">
       <article>
         <img v-bind:src="image.baseimageurl" />
@@ -53,5 +56,26 @@ article {
   height: 52vh;
   padding: 10px;
   margin: 20px;
+}
+
+.spinner {
+  margin: 15% auto;
+}
+.loader {
+  border: 22px solid #f3f3f3;
+  border-top: 22px solid #a41034;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 </style>
