@@ -1,5 +1,8 @@
 <template>
   <div class="galleries">
+    <section v-if="!galleries.length" class="spinner">
+      <div class="loader"></div>
+    </section>
     <section
       v-if="gallery.labeltext !== null"
       class="gallery-card"
@@ -62,5 +65,28 @@ h2,
 
 .floor-link:hover {
   color: black;
+}
+
+.spinner {
+  margin: 15% auto;
+  display: flex;
+  justify-content: center;
+}
+.loader {
+  border: 22px solid #f3f3f3;
+  border-top: 22px solid #a41034;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 </style>
