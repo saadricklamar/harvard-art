@@ -27,6 +27,6 @@ Heroku Link - https://harvard-art.herokuapp.com/#/
 
 ## Screenshots 
 
-<img width="1438" alt="Screen Shot 2019-07-30 at 4 31 24 PM" src="https://user-images.githubusercontent.com/42000931/62170240-fdfe4600-b2e7-11e9-9155-4f1fc9462da2.png">
+<img width="1278" alt="harvard-art" src="https://user-images.githubusercontent.com/42000931/72373003-b23c2f00-36c4-11ea-8433-23d87130a34c.png">
 
 <img width="1438" alt="Screen Shot 2019-07-30 at 4 31 43 PM" src="https://user-images.githubusercontent.com/42000931/62170246-0060a000-b2e8-11e9-8cb2-9d02ffef04d1.png">
