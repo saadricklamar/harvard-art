@@ -1,7 +1,14 @@
 <template>
   <div class="audio-container">
-    <section class="audio-cards" v-for="audio in audioRecordings" v-bind:key="audio.id">
-      <p>{{audio.description}}</p>
+    <section v-if="!audioRecordings.length" class="spinner">
+      <div class="loader"></div>
+    </section>
+    <section
+      class="audio-cards"
+      v-for="audio in audioRecordings"
+      v-bind:key="audio.id"
+    >
+      <p>{{ audio.description }}</p>
       <audio controls>
         <source v-bind:src="audio.primaryurl" type="audio/mpeg" />
       </audio>
@@ -53,5 +60,26 @@ audio {
 
 p {
   padding: 20px;
+}
+
+.spinner {
+  margin: 15% auto;
+}
+.loader {
+  border: 22px solid #f3f3f3;
+  border-top: 22px solid #a41034;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 </style>

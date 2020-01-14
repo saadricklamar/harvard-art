@@ -68,7 +68,7 @@ h2,
 }
 
 .spinner {
-  margin: 15% auto;
+  margin: 17% auto;
   display: flex;
   justify-content: center;
 }
