@@ -3,35 +3,27 @@
     <section class="welcome-card">
       <p>
         Harvard's Art Collection is my final project at the
-        <a
-          href="https://turing.io/"
-          target="_blank"
-        >Turing School of Software & Design</a>. The goal of this project was to mimic a take home project,
-        specifically, learning a new piece of techonology over a few days, in this case,
-        <a
-          href="https://vuejs.org/"
-          target="_blank"
-        >Vue.js</a>.
+        <a href="https://turing.io/" target="_blank"
+          >Turing School of Software & Design</a
+        >. The goal of this project was to mimic a take home project,
+        specifically, learning a new piece of technology over a few days, in
+        this case, <a href="https://vuejs.org/" target="_blank">Vue.js</a>.
         <br />
-        <br />I was prompted to create an application in Vue.js that functions as an art gallery
-        using the
+        <br />I was prompted to create an application in Vue.js that functions
+        as an art gallery using the
         <a
           href="https://www.harvardartmuseums.org/collections/api"
           target="_blank"
         >
-          Harvard
-          Museum API
-        </a>.
+          Harvard Museum API </a
+        >.
         <br />
         <br />Some of the major takeways were how to use
-        <a
-          href="https://router.vuejs.org/"
-          target="_blank"
-        >Vue Router</a>, Vue Directives (such as v-for and v-if), and unit testing with
-        <a
-          href="https://github.com/vuejs/vue-test-utils"
-          target="_blank"
-        >Vue Test Utils.</a>
+        <a href="https://router.vuejs.org/" target="_blank">Vue Router</a>, Vue
+        Directives (such as v-for and v-if), and unit testing with
+        <a href="https://github.com/vuejs/vue-test-utils" target="_blank"
+          >Vue Test Utils.</a
+        >
       </p>
     </section>
   </div>
@@ -95,7 +87,7 @@ a:hover {
 
 @media (max-width: 450px) {
   .welcome-card {
-    font-size: .8rem;
+    font-size: 0.8rem;
     height: 400px;
     width: 300px;
   }
