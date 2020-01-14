@@ -1,5 +1,8 @@
 <template>
   <div class="sites">
+    <section v-if="!sites.length" class="spinner">
+      <div class="loader"></div>
+    </section>
     <section v-for="site in sites" v-bind:key="site.id">
       <article class="site-card">
         <h3>{{ site.name }}</h3>
@@ -54,6 +57,27 @@ img {
   height: 400px;
   width: 600px;
   margin-top: 5px;
+}
+
+.spinner {
+  margin: 15% auto;
+}
+.loader {
+  border: 22px solid #f3f3f3;
+  border-top: 22px solid #a41034;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media (max-width: 768px) {
