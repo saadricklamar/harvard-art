@@ -12,7 +12,7 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "dotenv": "^8.0.0",
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "fetch-mock": "^7.3.9",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
